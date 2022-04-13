@@ -76,16 +76,17 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Services', href: '#', current: false },
-  { name: 'Pricing', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Services', href: '/services', current: false },
+  { name: 'Pricing', href: '/pricing', current: false },
+  { name: 'About', href: '/about', current: false },
   { name: 'Contact', href: '#', current: false },
 ]
-
-export default {
+export default defineComponent({
+  name: 'NavBar',
   components: {
 
   },
@@ -95,5 +96,6 @@ export default {
       navigation,
     }
   },
-}
+})
+
 </script>

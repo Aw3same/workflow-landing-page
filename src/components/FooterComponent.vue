@@ -20,7 +20,6 @@
           <a
             :href="item.href"
             class="mr-4 hover:underline md:mr-6"
-            :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</a>
         </li>
       </ul>
@@ -87,11 +86,11 @@
 <script lang="ts">
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Services', href: '#', current: false },
-  { name: 'Pricing', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', href: '/'},
+  { name: 'Services', href: '/services'},
+  { name: 'Pricing', href: '/pricing'},
+  { name: 'About', href: '/about'},
+  { name: 'Contact', href: '/contact'},
 ]
 
 export default {
