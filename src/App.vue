@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import Navbar from '@/components/Navbar.vue'
+import Navbar from '@/components/NavBar.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 
 
