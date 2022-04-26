@@ -11,9 +11,8 @@
 </template>
 
 <script lang="ts">
-// import { defineComponent } from 'vue'
-import Navbar from '@/components/Navbar.vue'
-import FooterComponent from '@/components/FooterComponent.vue'
+import Navbar from 'src/components/Navbar.vue'
+import FooterComponent from 'src/components/FooterComponent.vue'
 
 
 export default {
