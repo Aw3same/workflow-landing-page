@@ -301,7 +301,7 @@
         </div>
       </div>
     </section>
-
+<!-- 
     <div class="py-20 bg-gray-50 radius-for-skewed">
       <div class="container mx-auto px-4">
         <div class="max-w-2xl mx-auto text-center mb-16">
@@ -385,7 +385,7 @@
       </svg> </div>
     <div class="skew skew-bottom ml-for-radius"> <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewBox="0 0 10 10" preserveAspectRatio="none">
         <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
-      </svg> </div>
+      </svg> </div> -->
   </div>
 </template>
 
