@@ -1,12 +1,14 @@
 <template>
-  <div>
+  <div class="flex flex-col h-screen justify-between">
     <Navbar />
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <div class="max-w-5xl mx-auto my-6">
+      <div class="mb-auto max-w-5xl mx-auto my-6">
         <router-view />
       </div>
     </div>
-    <FooterComponent />
+    <div class="">
+      <FooterComponent />
+    </div>
   </div>
 </template>
 
