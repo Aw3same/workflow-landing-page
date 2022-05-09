@@ -1,12 +1,182 @@
 <template>
-  <div class="prose max-w-none">
-    <h1>Services</h1>
-    <p class="lead">
-      Voluptatibus maxime fuga, ratione repellat illum voluptas illo dolor aspernatur autem quae voluptatum fugit eligendi optio obcaecati repellendus. Earum nostrum officia impedit?
-    </p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat reiciendis impedit mollitia suscipit omnis id, aut esse aspernatur excepturi praesentium eligendi laudantium dicta sint quos et possimus itaque delectus nostrum porro reprehenderit deserunt tempora cupiditate amet? Consequuntur praesentium ab laboriosam quam dolor, quo beatae. Quod illo similique quidem quis voluptate, tenetur animi iusto laudantium cupiditate nam quasi aperiam enim dolor ut harum voluptatum suscipit nostrum quos sed reiciendis sapiente inventore explicabo. Corrupti, quia sint, commodi aliquam exercitationem ratione deleniti hic eum magnam, nihil minima dolor nam at! Delectus rerum eum a impedit ex excepturi maiores qui alias, et id aperiam.</p>
-    <p>Eius libero repudiandae distinctio molestiae nihil exercitationem adipisci nobis? At voluptas, dolor deleniti, cumque a voluptatem error voluptatum, tempora temporibus neque nobis enim inventore numquam in! Quasi eum harum quo modi praesentium saepe esse minima atque vitae aliquid dolores sed optio exercitationem officia odio quisquam impedit cum cupiditate excepturi, at ullam reprehenderit molestias vero aut. Distinctio ex autem quaerat ratione, cum delectus porro magni, ea cupiditate similique, debitis alias laborum eum maxime aperiam est nemo optio consequatur tempore quod? Dolores dolorum dolor quam doloremque, dolore labore aspernatur totam temporibus? Hic soluta et, quis saepe fuga temporibus ipsum ducimus dolores optio totam aliquid quo blanditiis pariatur porro obcaecati illo ullam mollitia! Dolore quis impedit unde vitae expedita modi ducimus quae, magni debitis atque autem aperiam ipsam molestiae quaerat perspiciatis suscipit nam? Sed repudiandae in enim nihil blanditiis temporibus numquam natus, est perferendis atque maxime voluptate aliquid, eum voluptas! Enim dolore quisquam distinctio vero doloremque magni obcaecati? Officia cupiditate cumque inventore repellendus non aspernatur mollitia molestias nobis, vitae fugiat minima eum dolores nihil, sequi magni exercitationem velit? Modi, omnis illo numquam, commodi hic sequi unde eveniet quod, eum non perspiciatis iusto eius. Soluta fugiat similique sed? Ratione est aliquam blanditiis fugit accusantium. Cupiditate harum quasi debitis omnis iste molestiae voluptatem vel voluptates unde aliquam a nesciunt totam nobis corrupti qui reprehenderit odio cum aliquid, ex enim? In nisi dolores reiciendis sequi, numquam dignissimos debitis deserunt eum. Itaque vitae quibusdam nesciunt! Vel aliquam sunt distinctio?</p>
-  </div>
+  <section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+    <div class="container">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
+            <span class="font-semibold text-lg text-primary mb-2 block">
+              Our Services
+            </span>
+            <h2 class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[40px]
+                  text-dark
+                  mb-4
+                  ">
+              What We Offer
+            </h2>
+            <p class="text-base text-body-color">
+              There are many variations of passages of Lorem Ipsum available
+              but the majority have suffered alteration in some form.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-4">
+        <!--  Card 1: Psychology -->
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
+            <div class="w-[70px] h-[70px] flex items-center justify-center bg-gray-800 rounded-2xl mb-8">
+              <FontAwesomeIcon icon="brain" class="text-white text-3xl" />
+            </div>
+            <h4 class="font-semibold text-xl text-dark mb-3"> Psicología </h4>
+            <p class="text-body-color"> Professional evaluation on anxiety, depression and many more. We also offer Sports Psychology </p>
+          </div>
+        </div>
+        <!--  Card 2: Physiotherapy -->
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
+            <div class="w-[70px] h-[70px] flex items-center justify-center bg-gray-800 rounded-2xl mb-8">
+              <FontAwesomeIcon icon="hand" class="text-white text-3xl" />
+            </div>
+            <h4 class="font-semibold text-xl text-dark mb-3"> Fisioterapia </h4>
+            <p class="text-body-color"> Fisioterapeutas especializados en  el ámbito deportivo y rehabilitación de lesiones </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+               p-10
+               md:px-7
+               xl:px-10
+               rounded-[20px]
+               bg-white
+               shadow-md
+               hover:shadow-lg
+               mb-8
+               ">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-gray-800
+                  rounded-2xl
+                  mb-8
+                  ">
+              <FontAwesomeIcon icon="bowl-food" class="text-white text-3xl" />
+
+            </div>
+            <h4 class="font-semibold text-xl text-dark mb-3">
+              Nutrición
+            </h4>
+            <p class="text-body-color">
+              Planes de nutrición personalizados y hábitos de alimentación saludables
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+               p-10
+               md:px-7
+               xl:px-10
+               rounded-[20px]
+               bg-white
+               shadow-md
+               hover:shadow-lg
+               mb-8
+               ">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-gray-800
+                  rounded-2xl
+                  mb-8
+                  ">
+              <FontAwesomeIcon icon="volleyball" class="text-white text-3xl" />
+
+            </div>
+            <h4 class="font-semibold text-xl text-dark mb-3">
+              Entrenador personal
+            </h4>
+            <p class="text-body-color">
+              Personalización de planes de entrenamiento acorde a tus objetivos y necesidades
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+               p-10
+               md:px-7
+               xl:px-10
+               rounded-[20px]
+               bg-white
+               shadow-md
+               hover:shadow-lg
+               mb-8
+               ">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-gray-800
+                  rounded-2xl
+                  mb-8
+                  ">
+              <FontAwesomeIcon icon="house-medical" class="text-white text-3xl" />
+
+            </div>
+            <h4 class="font-semibold text-xl text-dark mb-3">
+              Medicina
+            </h4>
+            <p class="text-body-color">
+              Nuestros especialistas en medicina cuidarán de tu salud y bienestar
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+               p-10
+               md:px-7
+               xl:px-10
+               rounded-[20px]
+               bg-white
+               shadow-md
+               hover:shadow-lg
+               mb-8
+               ">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-gray-800
+                  rounded-2xl
+                  mb-8
+                  ">
+              <FontAwesomeIcon icon="book" class="text-white text-3xl" />
+
+            </div>
+            <h4 class="font-semibold text-xl text-dark mb-3">
+              Courses
+            </h4>
+            <p class="text-body-color">
+              Ofrecemos también multitud de cursos, pregunta por ellos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">

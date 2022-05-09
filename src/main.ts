@@ -4,6 +4,9 @@ import App from './App.vue'
 import { routes } from './routes'
 import './index.css'
 
+import FontAwesomeIcon from './font-awesome.icons'
+
+
 const app = createApp(App)
 
 const router = createRouter({
@@ -28,6 +31,6 @@ if (import.meta.hot) {
     router.replace('')
   })
 }
-
+app.component('FontAwesomeIcon', FontAwesomeIcon)
 app.use(router)
 app.mount('#app')
