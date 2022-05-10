@@ -1,5 +1,5 @@
-import vue from "@vitejs/plugin-vue";
-import { resolve } from "path";
+import vue from '@vitejs/plugin-vue'
+import { resolve } from 'path'
 
 /** @type {import('vite').UserConfig} */
 export default {
@@ -12,7 +12,7 @@ export default {
   ],
   resolve: {
     alias: {
-      "@": resolve(__dirname, "./src"),
+      '@': resolve(__dirname, './src'),
     },
   },
-};
+}
