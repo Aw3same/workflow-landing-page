@@ -29,7 +29,7 @@
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a
         href="https://flowbite.com"
         class="hover:underline"
-      >workflow™</a>. All Rights Reserved.
+      >workflow™</a>. Todos los derechos reservados.
       </span>
       <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
         <a
@@ -84,14 +84,7 @@
   </footer>
 </template>
 <script lang="ts">
-
-const navigation = [
-  { name: 'Home', href: '/'},
-  { name: 'Services', href: '/services'},
-  { name: 'Pricing', href: '/pricing'},
-  { name: 'About', href: '/about'},
-  { name: 'Contact', href: '/contact'},
-]
+import { navigation } from '@/constants/navigation'
 
 export default {
   components: {
