@@ -3,12 +3,14 @@ import Services from './views/Services.vue'
 import About from './views/About.vue'
 import Pricing from './views/Pricing.vue'
 import NotFound from './views/NotFound.vue'
+import Contact from './views/Contact.vue'
 
 export const routes = [
   { path: '/', component: Home, meta: { title: 'Home' } },
   { path: '/services', component: Services, meta: { title: 'Services' } },
   { path: '/pricing', component: Pricing, meta: { title: 'Pricing' } },
   { path: '/about', component: About, meta: { title: 'About' } },
+  { path: '/contact', component: Contact, meta: { title: 'Contact' } },
   {
     path: '/*',
     component: NotFound,

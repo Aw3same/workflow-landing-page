@@ -83,7 +83,7 @@ const navigation = [
   { name: 'Services', href: '/services', current: false },
   { name: 'Pricing', href: '/pricing', current: false },
   { name: 'About', href: '/about', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Contact', href: '/contact', current: false },
 ]
 export default defineComponent({
   name: 'NavBar',
