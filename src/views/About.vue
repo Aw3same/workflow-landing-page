@@ -1,19 +1,127 @@
 <template>
-  <div class="prose max-w-none">
-    <h1>About</h1>
-    <p class="lead">
-      Voluptatibus maxime fuga, ratione repellat illum voluptas illo dolor aspernatur autem quae voluptatum fugit eligendi optio obcaecati repellendus. Earum nostrum officia impedit?
-    </p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat reiciendis impedit mollitia suscipit omnis id, aut esse aspernatur excepturi praesentium eligendi laudantium dicta sint quos et possimus itaque delectus nostrum porro reprehenderit deserunt tempora cupiditate amet? Consequuntur praesentium ab laboriosam quam dolor, quo beatae. Quod illo similique quidem quis voluptate, tenetur animi iusto laudantium cupiditate nam quasi aperiam enim dolor ut harum voluptatum suscipit nostrum quos sed reiciendis sapiente inventore explicabo. Corrupti, quia sint, commodi aliquam exercitationem ratione deleniti hic eum magnam, nihil minima dolor nam at! Delectus rerum eum a impedit ex excepturi maiores qui alias, et id aperiam.</p>
-    <p>Eius libero repudiandae distinctio molestiae nihil exercitationem adipisci nobis? At voluptas, dolor deleniti, cumque a voluptatem error voluptatum, tempora temporibus neque nobis enim inventore numquam in! Quasi eum harum quo modi praesentium saepe esse minima atque vitae aliquid dolores sed optio exercitationem officia odio quisquam impedit cum cupiditate excepturi, at ullam reprehenderit molestias vero aut. Distinctio ex autem quaerat ratione, cum delectus porro magni, ea cupiditate similique, debitis alias laborum eum maxime aperiam est nemo optio consequatur tempore quod? Dolores dolorum dolor quam doloremque, dolore labore aspernatur totam temporibus? Hic soluta et, quis saepe fuga temporibus ipsum ducimus dolores optio totam aliquid quo blanditiis pariatur porro obcaecati illo ullam mollitia! Dolore quis impedit unde vitae expedita modi ducimus quae, magni debitis atque autem aperiam ipsam molestiae quaerat perspiciatis suscipit nam? Sed repudiandae in enim nihil blanditiis temporibus numquam natus, est perferendis atque maxime voluptate aliquid, eum voluptas! Enim dolore quisquam distinctio vero doloremque magni obcaecati? Officia cupiditate cumque inventore repellendus non aspernatur mollitia molestias nobis, vitae fugiat minima eum dolores nihil, sequi magni exercitationem velit? Modi, omnis illo numquam, commodi hic sequi unde eveniet quod, eum non perspiciatis iusto eius. Soluta fugiat similique sed? Ratione est aliquam blanditiis fugit accusantium. Cupiditate harum quasi debitis omnis iste molestiae voluptatem vel voluptates unde aliquam a nesciunt totam nobis corrupti qui reprehenderit odio cum aliquid, ex enim? In nisi dolores reiciendis sequi, numquam dignissimos debitis deserunt eum. Itaque vitae quibusdam nesciunt! Vel aliquam sunt distinctio?</p>
-  </div>
+  <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
+    <div class="container">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="text-center mx-auto mb-[60px] max-w-[510px]">
+            <span class="font-semibold text-lg text-primary mb-2 block"> Sobre Nosotros</span>
+          </div>
+        </div>
+      </div>
+      <!-- MISION -->
+      <div class="py-16">
+        <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+            <div class="md:5/12 lg:w-5/12">
+              <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" />
+            </div>
+            <div class="md:7/12 lg:w-6/12">
+              <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">MISIÓN</h2>
+              <p class="mt-6 text-gray-600">
+                Queremos mejorar el bienestar físico, mental, emocional, social y deportivo de los trabajadores empresariales mediante una plataforma de salud digital enfocada en el bienestar general.
+              </p>
+              <p class="mt-4 text-gray-600">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Vision -->
+      <div class="py-16">
+        <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+            <div class="md:7/12 lg:w-6/12">
+              <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">VISIÓN</h2>
+              <p class="mt-6 text-gray-600">
+                Aspiramos a ser el primer promotor de una cultura de bienestar psicológico y físico en la población empresarial en Colombia siendo referentes en el cuidado y promoción de la salud en
+                las empresas colombianas.
+              </p>
+            </div>
+            <div class="md:5/12 lg:w-5/12">
+              <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VALORES -->
+      <div class="py-16">
+        <h2 class="text-2xl text-center text-gray-900 font-bold md:text-4xl">VALORES</h2>
+        <div class="w-full px-4 content-center">
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-6/12 px-4">
+              <div class="relative flex flex-col mt-4">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                    <FontAwesomeIcon icon="person" class="text-black text-3xl" />
+                  </div>
+                  <h6 class="text-xl mb-1 font-semibold">Servicio al cliente</h6>
+                  <p class="mb-4 text-blueGray-500">Todas las acciones de la empresa están dirigidas a satisfacer las necesidades de los clientes.</p>
+                </div>
+              </div>
+              <div class="relative flex flex-col min-w-0">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                    <FontAwesomeIcon icon="user-group" class="text-black text-2xl" />
+                  </div>
+                  <h6 class="text-xl mb-1 font-semibold">Colaboración/Cooperación</h6>
+                  <p class="mb-4 text-blueGray-500">Se busca la colaboración entre empleados, independientemente de su nivel jerárquico.</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 px-4">
+              <div class="relative flex flex-col min-w-0 mt-4">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                    <FontAwesomeIcon icon="user-graduate" class="text-black text-2xl" />
+                  </div>
+                  <h6 class="text-xl mb-1 font-semibold">Excelencia</h6>
+                  <p class="mb-4 text-blueGray-500">Contamos con profesionales en constante formación para ofrecer un servicio de calidad y actualizado.</p>
+                </div>
+              </div>
+              <div class="relative flex flex-col min-w-0">
+                <div class="px-4 py-5 flex-auto">
+                  <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                    <FontAwesomeIcon icon="heart" class="text-black text-3xl" />
+                  </div>
+                  <h6 class="text-xl mb-1 font-semibold">Responsabilidad social</h6>
+                  <p class="mb-4 text-blueGray-500">Estamos comprometidos en promover y proteger la salud de las personas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="text-center mx-auto mb-[60px] max-w-[510px]">
+            <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4">Nuestro Increíble Equipo</h2>
+            <p class="text-base text-body-color">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center -mx-4">
+        <ProfileCardComponent v-for="person in team" :key="person.id" :person="person" />
+      </div>
+    </div>
+  </section>
 </template>
 
 <script lang="ts">
+import { team } from '@/constants/people'
 import { defineComponent } from 'vue'
+import ProfileCardComponent from '@/components/ProfileCard.vue'
 
 export default defineComponent({
   name: 'AboutComponent',
-  components: {},
+  components: {
+    ProfileCardComponent,
+  },
+  data() {
+    return {
+      team: team,
+    }
+  },
 })
 </script>

@@ -19,7 +19,7 @@ import { defineComponent, Prop } from 'vue'
 import { IService } from '@/types/types'
 
 export default defineComponent({
-  name: 'ServiceCardComponent',
+  name: 'ProfileCardComponent',
   props: {
     service: Object as Prop<IService>,
   },
