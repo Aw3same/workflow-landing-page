@@ -21,7 +21,7 @@
                 Nuestras oficinas
               </h4>
               <p class="text-base text-body-color">
-                99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                Carrera 10 #72-66, Bogotá DC, Colombia
               </p>
             </div>
           </div>
