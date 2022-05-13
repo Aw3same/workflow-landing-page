@@ -13,7 +13,7 @@
         <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
           <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div class="md:5/12 lg:w-5/12">
-              <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" />
+              <img src="https://media.istockphoto.com/photos/golden-compass-concept-picture-id685797134?k=20&m=685797134&s=612x612&w=0&h=s3uEW5Db2-K37syk-zzoCzHfEA-8-meNL_vQXlsaULw=" alt="image" loading="lazy" width="" height="" />
             </div>
             <div class="md:7/12 lg:w-6/12">
               <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">MISIÓN</h2>
@@ -96,7 +96,7 @@
         <div class="w-full px-4">
           <div class="text-center mx-auto mb-[60px] max-w-[510px]">
             <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4">Nuestro Increíble Equipo</h2>
-            <p class="text-base text-body-color">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+            <p class="text-base text-body-color">Echa un vistazo a la gente que forma parte de Workflow</p>
           </div>
         </div>
       </div>
