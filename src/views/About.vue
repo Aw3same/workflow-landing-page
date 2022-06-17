@@ -19,7 +19,7 @@
               <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">MISIÓN</h2>
               <p class="mt-6 text-gray-600">
                 Queremos mejorar el bienestar físico, mental, emocional, social y deportivo de los trabajadores empresariales mediante una plataforma de salud digital enfocada en el bienestar general.
-              </p>              
+              </p>
             </div>
           </div>
         </div>
