@@ -18,7 +18,7 @@
             <div class="md:7/12 lg:w-6/12">
               <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">MISIÓN</h2>
               <p class="mt-6 text-gray-600">
-                Queremos mejorar el bienestar físico, mental, emocional, social y deportivo de los trabajadores empresariales mediante una plataforma de salud digital enfocada en el bienestar general.
+                La misión principal de nuestro equipo es mejorar el bienestar físico, mental, emocional, social y deportivo de los trabajadores empresariales mediante una plataforma de salud digital enfocada en el bienestar general y rendimiento laboral.
               </p>
             </div>
           </div>
@@ -31,8 +31,7 @@
             <div class="md:7/12 lg:w-6/12">
               <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">VISIÓN</h2>
               <p class="mt-6 text-gray-600">
-                Aspiramos a ser el primer promotor de una cultura de bienestar psicológico y físico en la población empresarial en Colombia siendo referentes en el cuidado y promoción de la salud en
-                las empresas colombianas.
+                Nuestro modelo de negocio aspira a ser el primer promotor de una cultura de bienestar psicológico y físico en la población empresarial en Colombia, siendo referentes en el cuidado de la salud y promoción del rendimiento en las empresas colombianas.
               </p>
             </div>
             <div class="md:5/12 lg:w-5/12">
